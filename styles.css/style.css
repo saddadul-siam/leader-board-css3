@@ -9,12 +9,53 @@ body{
     /* font-family: 'Roboto', sans-serif; */
     background-color: #F3F1FF;
 }
+/* <!---------------
+    nav start
+-----------------> */
+
+.navigation-bar{
+    width: auto;
+    height: 71px;
+    background-color:#562EFF;
+}
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+.nav-logo img{
+    width: 40px;
+    height: 51px;
+}
+.logo-title h1{
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.nav-option a{
+    text-decoration: none;
+    font-size: 15px;
+    padding-right: 10px;
+    color: #FFFFFF;
+}
+.nav-profile img{
+    width: 45px;
+    height: 45px;
+}
+/*-----------
+ main style
+ ------------- */
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
 }
 .container{
     width: 870px;
